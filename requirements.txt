@@ -114,7 +114,6 @@ python-mnist==0.7
 pytz==2023.3.post1
 PyYAML==6.0.1
 pyzmq==25.1.1
-qiskit==1.0.0rc1
 qiskit==1.0.2
 qiskit-aer==0.13.3
 qiskit-algorithms==0.3.0
