@@ -87,9 +87,6 @@ pandas==2.1.1
 parso==0.8.3
 partd==1.4.1
 pbr==5.11.1
-PennyLane==0.32.0
-PennyLane-Lightning==0.33.0
-PennyLane-qiskit==0.32.0
 pexpect==4.8.0
 pickleshare==0.7.5
 Pillow==10.0.0
@@ -118,10 +115,10 @@ pytz==2023.3.post1
 PyYAML==6.0.1
 pyzmq==25.1.1
 qiskit==1.0.0rc1
+qiskit==1.0.2
 qiskit-aer==0.13.3
 qiskit-algorithms==0.3.0
 qiskit-ibm-provider==0.10.0
-qiskit-ibm-runtime==0.21.1
 qiskit-optimization==0.6.1
 referencing==0.30.2
 requests==2.31.0
