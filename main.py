@@ -25,6 +25,5 @@ app.add_middleware(
 
 @app.post("/genome/")
 async def create_item(item: Item):
-    counts = runExperiment(dummyCircuit, backendSimulator=AerSimulator)
-    # return {"probability": counts, "response": "success"}
-    return {"subgenomeFound": True}
+    response = runExperiment(genome=item.genome, subgenome=item.subgenome)
+    return {"subgenomeFound": response}
